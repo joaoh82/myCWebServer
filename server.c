@@ -42,7 +42,7 @@ int main(int argc, char* argv[]) {
                 strcpy(PORT, optarg);
                 break;
             case '?':
-                fprintf(stderr, "Wrong arguments given!\n");
+                fprintf(stderr, "Wrong arguments given.\n");
                 exit(1);
             default:
                 exit(1);
